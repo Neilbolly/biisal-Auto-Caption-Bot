@@ -18,7 +18,7 @@ class Bot(Client):
     async def start(self):
         await super().start()
         me = await self.get_me()
-        print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
+        print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️\nᴛᴏ ᴀᴠᴏɪᴅ ᴇʀʀᴏʀs ᴅᴏ ᴍᴇᴏᴡ ᴍᴇᴏᴡ 𝟷𝟶𝟶 ᴛɪᴍᴇs.")
         await self.send_message(ADMIN, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
 
 
